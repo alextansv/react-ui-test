@@ -1,0 +1,19 @@
+.button {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button:hover {
+    color: #FFF;
+    background-color: #0069D9;
+    border-color: #0062CC;
+}
